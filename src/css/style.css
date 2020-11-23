@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: scroll;
+  height: 150vh;
+}
+.wrap {
+  overflow: hidden;
+  text-align: center;
+  height: 150vh;
+  width: 90vw;
+  margin: auto;
+  background-color: rgb(253, 247, 238);
+  padding: 1px;
+}
+header {
+  background-image: url("..//img/Covid-19.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: auto;
+  height: 40vh;
+  overflow: hidden;
+}
+
+#country {
+  width: 33%;
+  padding: 5px;
+  font-size: larger;
+  margin-top: 2vh;
+  color: rgb(235, 231, 225);
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.2px solid white;
+  overflow: hidden;
+}
+
+input {
+  color: black;
+  border: none;
+  border-bottom: 0.2px solid white;
+  overflow: hidden;
+  width: 33%;
+  padding: 5px;
+}
+#country:focus {
+  border: none;
+  border-bottom: 1.2px solid white;
+  outline: none;
+  width: 33%;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 1.2px solid white;
+  outline: none;
+  width: 33%;
+}
+
+h1 {
+  color: rgb(238, 234, 234);
+  margin-top: -5vh;
+}
+span {
+  color: wheat;
+  font-size: x-small;
+  margin-left: 1vw;
+}
+ul {
+  list-style: none;
+}
+li {
+  background-color: #ddd;
+  margin-bottom: 3px;
+  border-bottom: 2px solid salmon;
+}
+#allCountries {
+  overflow: scroll;
+  height: 45vh;
+  border: #ddd 1.5px solid;
+}
+#allCountries p {
+  font-size: small;
+  color: rgb(16, 13, 90);
+  height: 3vh;
+  justify-content: center;
+  align-content: center;
+}
+#allCountries p:hover {
+  font-size: small;
+  background-color: rgb(190, 185, 230);
+}
+#loader {
+  display: none;
+}
+.box {
+  height: 40vh;
+  padding: 2vh;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  margin: 1vh;
+}
+
+.date {
+  background-color: crimson;
+  color: white;
+  font-size: medium;
+  text-align: left;
+  width: 100%;
+}
+.active,
+.recovered,
+.confirmed,
+.death {
+  border-bottom: 1px solid rgb(88, 88, 102);
+  border-radius: 0% 0% 5% 5%;
+  margin: 10px;
+  font-size: medium;
+  box-shadow: #ddd;
+  overflow: hidden;
+}
+
+.active i,
+.recovered i,
+.confirmed i,
+.death i {
+  margin-right: 0.2vw;
+
+  color: red;
+}
+
+.raz {
+  background-color: wheat !important;
+  color: red;
+  font-size: x-large;
+  padding: 1px;
+  overflow: hidden;
+}
+
+
